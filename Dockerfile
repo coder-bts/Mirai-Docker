@@ -1,7 +1,7 @@
 FROM alpine:latest
 
 ENV TZ Asia/Shanghai
-ARG MCL_LINK=https://github.com/iTXTech/mirai-console-loader/releases/download/v1.1.0-beta.1/mcl-1.1.0-beta.1.zip
+ARG MCL_LINK=https://www.bitznet.app/dev/mcl-1.1.0-beta.1.zip
 ARG MAH_LINK=https://github.com/project-mirai/mirai-api-http/releases/download/v2.0-RC2/mirai-api-http-v2.0-RC2.mirai.jar
 WORKDIR /app
 
